@@ -1,0 +1,11 @@
+dashboard:
+
+this is the result of our dashboard, main element is the heatmap. data in a 7min window, pickups in 7mins. weather in the current hour
+talk about predictions
+
+Methodology:
+
+
+
+Say the dashboard is robust and highly scalable, covers a wide variety of aspects which is of high importance to our stakeholders. This dashboard gives an edge to the taxi company and taxi drivers.
+talk about scalability and how eliiza can partner with taxi companies and go straight into next steps, gcp usage and pipeline optimization and query optimization.

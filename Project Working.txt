@@ -1,0 +1,13 @@
+Gojek was able to use Dataflow to build a streaming event data pipeline.
+02:56
+This let driver locations ping Pub/Sub every 30 seconds, and Dataflow would process the data.
+03:02
+The pipeline would aggregate the supply pings from the drivers against the booking requests.
+03:06
+This would connect to Gojek’s notification system to alert drivers where they should go.
+03:13
+This process required a system that was able to scale up to handle times of high throughput and then back down again.
+03:20
+Dataflow was able to automatically manage the number of workers processing the pipeline to meet demand.
+03:26
+The Gojek team was also able to visualize and identify supply and demand issues.

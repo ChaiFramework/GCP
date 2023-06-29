@@ -1,0 +1,37 @@
+To have a dashboard/API which we can pass on to the client 
+
+What kind of data do we need? 
+
+GEOJSON of NYC 
+
+NYC weather data 
+
+GCP Deliverables: 
+
+Connect Pub/Sub to NYC GitHub repo to emulate streaming of the NYC Taxi and Limousine data. 
+
+Setup Apache Beam to be used as model to create a data processing pipeline 
+
+Use Dataflow as an execute engine to implement the data pipeline 
+
+Feed outputs from Dataflow to BigQuery (data warehouse) to execute queries to generate insights from the data. 
+
+Use Data Studio/Looker to generate visualisations from the insights on the data 
+
+What do we want to display? 
+
+Heat map of the number of taxi/limousine rides across the city at different times 
+
+Which areas have high demand for taxi’s wrt to the weather at different times 
+
+How the payment type varies with time? 
+
+The amount tipped by riders at different times of the day? 
+
+ 
+
+Whole end to end system is a deliverable 
+
+Data integration (pipeline) 
+
+Real time analysis (dashboard) 

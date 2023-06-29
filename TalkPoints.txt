@@ -1,0 +1,27 @@
+Coming to the results of our prototype, 
+
+
+
+Model metrics 
+we used the following models to make predictions, which are displayed on our dashboard.
+
+Our primary reason for choosing the XGBoost is for model performance, the same model when created using linear regression model on big query gave an accuracy of 50% accuracy.
+Additionally XGBoost is significantly faster.
+
+One of the models created is a logistic regression model to predict the most prominent payment method being used. the results were quite surprising. We will show the results in the upcoming slides.
+
+Dashboard 
+
+Our final product, a real time dashboard created on tableau visualizing the most noteworthy locations in New York for picking up passengers.
+The dashboard is updated on a 7 min window. we take into account all weather conditions and have produced the following results.
+
+As you can see cash payments are preferred over card and its by a significant margin.
+
+Conclusion
+
+In conclusion we have a highly scalable real time dashboard which gives taxi companies and drivers alike a significant edge over the competition. While we made sure to cover all basis there is scope for improvement.
+
+1. We need to make consideration to consume less quota on big query as the overhead is pretty high when querying data over 200 GB.
+
+2. performance can improved by segmenting the model (different models)to take into account for temporal changes.
+
